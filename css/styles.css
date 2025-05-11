@@ -1,5 +1,4 @@
-/* Global Styles */
-:root {
+/* :root {
     --primary-color: #2c3e50;
     --secondary-color: #3498db;
     --accent-color: #e74c3c;
@@ -7,7 +6,37 @@
     --dark-color: #2c3e50;
     --text-color: #333;
     --text-light: #777;
+} */
+ :root {
+    --primary-color: #8e44ad;
+    --secondary-color: #f39c12;
+    --accent-color: #e67e22;
+    --light-color: #fceae8;
+    --dark-color: #5e3370;
+    --text-color: #3c2a2a;
+    --text-light: #9b6d6d;
 }
+ /* :root {
+    --primary-color: #1abc9c;
+    --secondary-color: #2980b9;
+    --accent-color: #16a085;
+    --light-color: #e0f7fa;
+    --dark-color: #0e3d4d;
+    --text-color: #1b2c32;
+    --text-light: #5d6d72;
+} */
+/* :root {
+    --primary-color: #f8b195;
+    --secondary-color: #f67280;
+    --accent-color: #c06c84;
+    --light-color: #fbeae9;
+    --dark-color: #6c5b7b;
+    --text-color: #4e4e4e;
+    --text-light: #9d9d9d;
+} */
+
+
+
 
 * {
     margin: 0;
@@ -55,7 +84,6 @@ a:hover {
     transform: translateY(-2px);
 }
 
-/* Header Styles */
 header {
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -125,7 +153,6 @@ nav ul li a:hover:after {
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     height: 80vh;
@@ -146,7 +173,6 @@ nav ul li a:hover:after {
     margin-bottom: 30px;
 }
 
-/* Features Section */
 .features {
     padding: 80px 0;
     background-color: white;
@@ -184,8 +210,6 @@ nav ul li a:hover:after {
     margin-bottom: 15px;
     color: var(--primary-color);
 }
-
-/* News Section */
 .news {
     padding: 80px 0;
     background-color: #f5f5f5;
@@ -245,7 +269,6 @@ nav ul li a:hover:after {
     color: var(--secondary-color);
 }
 
-/* Footer Styles */
 footer {
     background-color: var(--dark-color);
     color: white;
@@ -329,7 +352,6 @@ footer {
     font-size: 14px;
 }
 
-/* Responsive Styles */
 @media (max-width: 992px) {
     .feature-box {
         min-width: calc(50% - 30px);
@@ -412,8 +434,6 @@ footer {
         font-size: 28px;
     }
 }
-
-/* About Page Specific Styles */
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     height: 300px;
@@ -634,7 +654,6 @@ footer {
     color: var(--primary-color);
 }
 
-/* Responsive Styles for About Page */
 @media (max-width: 992px) {
     .about-content {
         flex-direction: column;
@@ -683,7 +702,6 @@ footer {
     }
 }
 
-/* Academics Page Specific Styles */
 .academic-overview {
     padding: 80px 0;
     background-color: white;
